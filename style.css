@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Luckiest Guy', cursive;
-  color: #f9f9f9;
+  color: #ffffff;
   background: url('assets/artwork_by_Groowut.png') no-repeat center center fixed;
   background-size: cover;
   position: relative;
@@ -12,7 +12,7 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.75); /* plus foncé pour meilleure lisibilité */
+  background: rgba(0, 0, 0, 0.75); /* assombri pour lisibilité */
   z-index: -1;
 }
 
@@ -27,7 +27,7 @@ header {
 
 nav a {
   margin: 0 1rem;
-  color: #ff00ff;
+  color: #ffffff; /* blanc lisible */
   font-weight: bold;
   text-decoration: underline;
 }
@@ -62,6 +62,7 @@ h2, h3 {
 a {
   color: #ffcc00;
   font-weight: bold;
+  text-decoration: none;
 }
 
 footer {
